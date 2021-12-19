@@ -53,8 +53,6 @@ $ node ./server.js
 └── /valid (GET)
 ```
 
-4. Parse errors only seem to be an issue at the top level or in the plugin function,
-   not in the route handlers.
+4. There are other kind of issues that cause this behaviour.
 
-Move `error-in-route` to the `./routes` directory to see it load correctly
-(but fail when trying to handle a request).
+Try moving the other invalid plugin files into `./routes`.
