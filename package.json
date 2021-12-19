@@ -1,0 +1,12 @@
+{
+  "name": "fastify-autoload-silent-errors",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Francois Best",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.25.0",
+    "fastify-autoload": "^3.9.0"
+  },
+  "devDependencies": {}
+}
