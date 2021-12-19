@@ -1,6 +1,6 @@
 ## Issue
 
-`fastify-autoload` does not throw an error when parsing a plugin file fails,
+`fastify-autoload` does not throw an error when loading a plugin file fails,
 and instead fails to load subsequent plugins.
 
 ## Reproduction
